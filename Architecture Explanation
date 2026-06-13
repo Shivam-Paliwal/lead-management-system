@@ -1,0 +1,79 @@
+## Technologies Used
+
+Backend:
+
+* Node.js
+* Express.js
+* PostgreSQL
+* Sequelize
+* JWT
+
+Frontend:
+
+* React.js
+* Vite
+* Axios
+* Bootstrap
+
+
+## Backend Flow
+
+Request
+↓
+Routes
+↓
+Controllers
+↓
+Services
+↓
+Database
+
+Routes receive API requests.
+
+Controllers handle request and response.
+
+Services contain business logic.
+
+Database stores application data.
+
+
+## Authentication
+
+I used JWT authentication.
+
+Steps:
+
+1. User logs in.
+2. Password is checked using bcrypt.
+3. JWT token is generated.
+4. Token is sent to frontend.
+5. Protected APIs verify the token.
+
+
+## Lead Assignment Logic
+
+When a manager creates a lead:
+
+1. System finds available agents.
+2. Agent with least number of leads is selected.
+3. Lead is automatically assigned.
+
+This keeps lead distribution balanced.
+
+
+## Activity Logs
+
+Whenever a lead is created or updated, an activity log is created.
+
+This helps in tracking user actions.
+
+
+## Future Improvements
+
+If I had more time I would add:
+
+* Docker support
+* Redis caching
+* Unit testing
+* Swagger documentation
+* Deployment on cloud
