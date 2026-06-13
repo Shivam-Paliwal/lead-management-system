@@ -1,0 +1,59 @@
+For this project I used PostgreSQL database.
+
+I created 3 main tables:
+
+## 1. Users
+This table stores all users of the system.
+Roles:
+* Admin
+* Manager
+* Agent
+
+Important fields:
+* id
+* name
+* email
+* password
+* role
+
+Email is unique for every user.
+
+## 2. Leads
+This table stores lead information.
+Fields:
+* name
+* email
+* phone
+* source
+* status
+* assigned_to
+* notes
+
+A lead can be assigned to an agent.
+
+## 3. Activity Logs
+This table stores actions performed on leads.
+Examples:
+* Lead Created
+* Lead Updated
+* Lead Assigned
+* Status Changed
+
+This helps track changes in the system.
+
+## Relationships
+
+One user can have many leads.
+
+One lead can have many activity logs.
+
+Users (1) ---> Leads (Many)
+
+Leads (1) ---> Activity Logs (Many)
+
+## Why I Chose This Design
+
+* Easy to understand
+* Avoids duplicate data
+* Supports future features
+* Maintains relationship between users and leads
