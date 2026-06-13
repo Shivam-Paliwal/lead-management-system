@@ -1,0 +1,33 @@
+## AI Tools Used
+
+* ChatGPT
+* Codex
+
+## How AI Was Used
+
+I used AI tools mainly for small assistance during development, such as:
+
+* Understanding some implementation approaches
+* Generating small code snippets and boilerplate code
+* Debugging errors
+* Reviewing code structure
+* Improving documentation
+
+## My Contribution
+
+Most of the project design and implementation decisions were made by me, including:
+
+* Database design and table relationships
+* Project folder structure
+* Authentication and authorization setup
+* PostgreSQL configuration
+* API integration
+* Lead assignment approach
+* Debugging and fixing issues
+* Frontend and backend integration
+* Testing the application
+* GitHub repository setup and management
+
+## Note
+
+AI was used as a supporting tool during development. The overall project structure, design decisions, configuration, testing, debugging, and final implementation were completed and verified by me.
